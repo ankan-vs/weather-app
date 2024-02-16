@@ -1,0 +1,45 @@
+.header{
+    border:0px solid black;
+    width: 45vw;
+    height: 30vh;
+    margin: 2vh auto;
+    border-radius: 5px;
+    background-color: rgba(87, 143, 234, 0.436);
+    padding: 1px;
+    box-shadow: 2px 2px 5px 5px rgb(36, 34, 34);
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+input{
+    padding: 8px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    width: 20vw;
+}
+.icon{
+    font-size: 1.5rem;
+    position: relative;
+    top: 7px;
+}
+.dataBox{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    padding: 5px;
+}
+.box{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgba(45, 160, 255, 0.422);
+    box-shadow: 1px 1px 10px 2px  rgb(84, 82, 82);
+}
